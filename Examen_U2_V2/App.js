@@ -5,8 +5,6 @@ import {
   Text,
   View,
   FlatList,
-  ScrollView,
-  TextInput,
   TouchableOpacity,
 } from "react-native";
 
@@ -38,10 +36,10 @@ export default function App() {
   const [op, setOp] = useState(Lista1);
   
   const b1 = () =>{
-    Op = Lista1
+    Op === Lista1
   }
   const b2 = () =>{
-    Op = Lista2
+    Op === Lista2
   }
 
   const Materia = (props) => {
